@@ -10,41 +10,87 @@
 </head>
 
 <body>
-    <div class="principal">
 
-        <form id="" method="get">
-            <p>Nome:<input type="text" class="nome"></p>
-            <p>Peso:<input type="number" class="peso"></p>
-            <p>Altura:<input type="text" class="altura"></p>
-            <button type="submit">Enviar</button>
-        </form>
 
-        <h1>Cálculo de IMC:</h1>
-        <br>
-        <table class="tableResultado">
-            <tbody class="tbodyResultado">
-            <tr>
-                <td>Nome</td>
-                <td>Peso</td>
-                <td>Altura</td>
-                <td>IMC</td>
-                <td>Grau</td>
-                <td>Peso Ideal</td>
-                <td>Opções</td>
-            </tr>
-           <!--  <tr>
-                <td>Thiago Ventura dos Santos</td>
-                <td>96 kg</td>
-                <td>1.75</td>
-                <td>Obesidade grau 1</td>
+    <div class="container">
+        <header>
+            <div class="header">
+                <h2 class="titulo">Calculo IMC</h2>
+            </div>
 
-            </tr> -->
-        </tbody>
-        </table>
+        </header>
+
+        <!--conteudo-->
+        <section>
+            <div class="formulario">
+
+                <form id="" method="get">
+                    <div class="box-input">
+                        <label for="nome">Nome:</label> 
+                        <input type="text" class="nome">
+                    </div>
+                    
+                    <div class="box-input">
+                        <label for="peso">Peso:</label>
+                        <input type="number" class="peso">
+                    </div>
+                    
+                    <div class="box-input">
+                        <label for="altura">Altura:</label>
+                        <input type="text" class="altura">
+                    </div>
+
+                    <div class="box-input">
+                        <button type="submit">Enviar</button>
+                    </div>
+                    
+                </form>
+
+            </div>
+
+            <div class="lista">
+                <table class="tableResultado">
+                    <tbody class="tbodyResultado">
+                        <thead>
+                            <td>Nome</td>
+                            <td>Peso</td>
+                            <td>Altura</td>
+                            <td>IMC</td>
+                            <td>Grau</td>
+                            <td>Peso Ideal</td>
+                            <td>Opções</td>
+
+                        </thead>
+                        
+                        <tr class="linha-dado">
+                            
+                        </tr>
+                        <!--  <tr>
+                        <td>Thiago Ventura dos Santos</td>
+                        <td>96 kg</td>
+                        <td>1.75</td>
+                        <td>Obesidade grau 1</td>
+        
+                    </tr> -->
+                    </tbody>
+                </table>
+
+
+            </div>
+        </section>
+
+
+
+
+
+
+
         <div class="resultado"></div>
+
     </div>
 
     <script src="js/index.js"></script>
+
 </body>
 
 </html>

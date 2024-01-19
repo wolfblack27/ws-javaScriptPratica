@@ -19,4 +19,3 @@ Pratica04_Arrays_Objects_For:
 
 - Neste exemplo foi criado um elemento para preencher o DOM Html
   usando: arrays e desestruturação
-

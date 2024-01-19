@@ -1,41 +1,92 @@
-.principal {
-    text-align: center;
-    color: rgb(0, 140, 255);
-    float: left;
-    margin: 40px;
-   /* border: 1px solid aqua;*/
-    
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-  }
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+}
 
+.header{
 
+  text-align: center;
+  background-color: beige;
+  height: 100px;
+  line-height: 100px;
+  
+}
+.titulo {
+ font-size: 38px; 
+ 
+}
 
+/*Formulario*/
+.formulario{
 
-  input {
-   margin-left: 0px;
-   text-align: center;
-   border: 3px solid #555;
+    padding-left: 10px;
+    padding-top: 20px;
 
 }
-input:hover{
-background-color: aqua;
-border-color: brown;
+.box-input{
+    margin-bottom: 25px;
+    
+   
 
+}
+.box-input input{
+    border: 0px;
+    border-bottom: 2px sienna solid;
+    
+}
+
+
+.box-input:last-child{
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+form label{
+
+    display: block;
+}
+
+/*Tabela*/
+
+.lista{
+
+  margin-top: 45px;
+ 
+  
 }
 
 .tableResultado{
-    border-collapse: collapse;
-    text-align: center;
-    color: sienna;
-    text-align: center;
-    
+  border-collapse: separate;
+  table-layout: auto;
+  text-align: center;
+  border-spacing: 0 7px;
+  width: 100%;
 }
-th,tr,td{
 
-    padding: 15px;
-    text-align: left;
-    color: sienna;
-    border-bottom: 1px solid crimson;
-    text-align: center;
-    
+.tableResultado thead{
+
+  background-color: green;
+  color: #fff;
+  td {
+        &:first-child {
+          border-left: 1px solid green;
+        }
+        &:last-child {
+          border-right: 1px solid green;
+        }
+    }
+}
+
+.linha-dado{
+
+  
 }

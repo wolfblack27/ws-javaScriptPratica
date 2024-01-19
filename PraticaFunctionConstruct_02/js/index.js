@@ -51,6 +51,7 @@ const pessoa = function (nome, peso, altura) {
 
 criarResultado= function(saidaPessoa,tbodyResultado ){
     const trResultado = document.createElement("tr");
+    trResultado.setAttribute('class','linha-dado')
    
     for (chave in saidaPessoa){
         console.log(saidaPessoa[chave])
@@ -109,7 +110,6 @@ window.addEventListener("load", () => {
         
 
     });
-    
     
     
   });
